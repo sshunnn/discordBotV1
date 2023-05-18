@@ -1,6 +1,6 @@
 const dotenv = require('dotenv');
 const cron = require('node-cron');
-const { Client, Events, GatewayIntentBits, cleanCodeBlockContent } = require('discord.js');
+const { Client, Events, GatewayIntentBits } = require('discord.js');
 const client = new Client({
     'intents': [
         GatewayIntentBits.Guilds,
